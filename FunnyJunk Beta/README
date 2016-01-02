@@ -1,0 +1,11 @@
+Description:
+Light Weight FunnyJunk.com scraper. Scrapes the “most_popular” RSS feed of website funnyJunk. Originally wanted to perfect this and publish it but ran into legal issues when the website wouldnt want to cooperate so I quit working on this.
+Good to learn image manipulation on in the future, how to allow users to expand/reduce images with different touches and so on. Currently supports double clicks and different drag combinations but needs more work.
+
+
+Fixes:
+-FunnyJunk structure updated? Scrape is no longer gathering images.
+	-html changed image identifiers from “<src=“ to “src=“.. fixed.
+-Functionalize whole app / restructure for better organization
+-Image scrolling/stretching needs to be perfected. Image disortion shouldnt be happening and needs to be fixed before GitHub ready.
+-Title screens/graphics are placeholders

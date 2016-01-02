@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D493B5591B1116C800F89F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493B5581B1116C800F89F99 /* AppDelegate.swift */; };
+		D493B55C1B1116C800F89F99 /* Google_Blog_Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D493B55A1B1116C800F89F99 /* Google_Blog_Reader.xcdatamodeld */; };
+		D493B55E1B1116C800F89F99 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493B55D1B1116C800F89F99 /* MasterViewController.swift */; };
+		D493B5601B1116C800F89F99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493B55F1B1116C800F89F99 /* DetailViewController.swift */; };
+		D493B5631B1116C800F89F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D493B5611B1116C800F89F99 /* Main.storyboard */; };
+		D493B5651B1116C800F89F99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D493B5641B1116C800F89F99 /* Images.xcassets */; };
+		D493B5681B1116C800F89F99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D493B5661B1116C800F89F99 /* LaunchScreen.xib */; };
+		D493B5741B1116C900F89F99 /* Google_Blog_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493B5731B1116C900F89F99 /* Google_Blog_ReaderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D493B56E1B1116C800F89F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D493B54B1B1116C800F89F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D493B5521B1116C800F89F99;
+			remoteInfo = "Google Blog Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D493B5531B1116C800F89F99 /* Google Blog Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Blog Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D493B5571B1116C800F89F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D493B5581B1116C800F89F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D493B55B1B1116C800F89F99 /* Google_Blog_Reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Google_Blog_Reader.xcdatamodel; sourceTree = "<group>"; };
+		D493B55D1B1116C800F89F99 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D493B55F1B1116C800F89F99 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D493B5621B1116C800F89F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D493B5641B1116C800F89F99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D493B5671B1116C800F89F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D493B56D1B1116C800F89F99 /* Google Blog ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Blog ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D493B5721B1116C900F89F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D493B5731B1116C900F89F99 /* Google_Blog_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Blog_ReaderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D493B5501B1116C800F89F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D493B56A1B1116C800F89F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D493B54A1B1116C800F89F99 = {
+			isa = PBXGroup;
+			children = (
+				D493B5551B1116C800F89F99 /* Google Blog Reader */,
+				D493B5701B1116C900F89F99 /* Google Blog ReaderTests */,
+				D493B5541B1116C800F89F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D493B5541B1116C800F89F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D493B5531B1116C800F89F99 /* Google Blog Reader.app */,
+				D493B56D1B1116C800F89F99 /* Google Blog ReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D493B5551B1116C800F89F99 /* Google Blog Reader */ = {
+			isa = PBXGroup;
+			children = (
+				D493B5581B1116C800F89F99 /* AppDelegate.swift */,
+				D493B55D1B1116C800F89F99 /* MasterViewController.swift */,
+				D493B55F1B1116C800F89F99 /* DetailViewController.swift */,
+				D493B5611B1116C800F89F99 /* Main.storyboard */,
+				D493B5641B1116C800F89F99 /* Images.xcassets */,
+				D493B5661B1116C800F89F99 /* LaunchScreen.xib */,
+				D493B55A1B1116C800F89F99 /* Google_Blog_Reader.xcdatamodeld */,
+				D493B5561B1116C800F89F99 /* Supporting Files */,
+			);
+			path = "Google Blog Reader";
+			sourceTree = "<group>";
+		};
+		D493B5561B1116C800F89F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D493B5571B1116C800F89F99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D493B5701B1116C900F89F99 /* Google Blog ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D493B5731B1116C900F89F99 /* Google_Blog_ReaderTests.swift */,
+				D493B5711B1116C900F89F99 /* Supporting Files */,
+			);
+			path = "Google Blog ReaderTests";
+			sourceTree = "<group>";
+		};
+		D493B5711B1116C900F89F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D493B5721B1116C900F89F99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D493B5521B1116C800F89F99 /* Google Blog Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D493B5771B1116C900F89F99 /* Build configuration list for PBXNativeTarget "Google Blog Reader" */;
+			buildPhases = (
+				D493B54F1B1116C800F89F99 /* Sources */,
+				D493B5501B1116C800F89F99 /* Frameworks */,
+				D493B5511B1116C800F89F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Blog Reader";
+			productName = "Google Blog Reader";
+			productReference = D493B5531B1116C800F89F99 /* Google Blog Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D493B56C1B1116C800F89F99 /* Google Blog ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D493B57A1B1116C900F89F99 /* Build configuration list for PBXNativeTarget "Google Blog ReaderTests" */;
+			buildPhases = (
+				D493B5691B1116C800F89F99 /* Sources */,
+				D493B56A1B1116C800F89F99 /* Frameworks */,
+				D493B56B1B1116C800F89F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D493B56F1B1116C800F89F99 /* PBXTargetDependency */,
+			);
+			name = "Google Blog ReaderTests";
+			productName = "Google Blog ReaderTests";
+			productReference = D493B56D1B1116C800F89F99 /* Google Blog ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D493B54B1B1116C800F89F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Raporte;
+				TargetAttributes = {
+					D493B5521B1116C800F89F99 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D493B56C1B1116C800F89F99 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D493B5521B1116C800F89F99;
+					};
+				};
+			};
+			buildConfigurationList = D493B54E1B1116C800F89F99 /* Build configuration list for PBXProject "Google Blog Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D493B54A1B1116C800F89F99;
+			productRefGroup = D493B5541B1116C800F89F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D493B5521B1116C800F89F99 /* Google Blog Reader */,
+				D493B56C1B1116C800F89F99 /* Google Blog ReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D493B5511B1116C800F89F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D493B5631B1116C800F89F99 /* Main.storyboard in Resources */,
+				D493B5681B1116C800F89F99 /* LaunchScreen.xib in Resources */,
+				D493B5651B1116C800F89F99 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D493B56B1B1116C800F89F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D493B54F1B1116C800F89F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D493B5591B1116C800F89F99 /* AppDelegate.swift in Sources */,
+				D493B55C1B1116C800F89F99 /* Google_Blog_Reader.xcdatamodeld in Sources */,
+				D493B55E1B1116C800F89F99 /* MasterViewController.swift in Sources */,
+				D493B5601B1116C800F89F99 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D493B5691B1116C800F89F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D493B5741B1116C900F89F99 /* Google_Blog_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D493B56F1B1116C800F89F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D493B5521B1116C800F89F99 /* Google Blog Reader */;
+			targetProxy = D493B56E1B1116C800F89F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D493B5611B1116C800F89F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D493B5621B1116C800F89F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D493B5661B1116C800F89F99 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D493B5671B1116C800F89F99 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D493B5751B1116C900F89F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D493B5761B1116C900F89F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D493B5781B1116C900F89F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Blog Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D493B5791B1116C900F89F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Blog Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D493B57B1B1116C900F89F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Google Blog ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Blog Reader.app/Google Blog Reader";
+			};
+			name = Debug;
+		};
+		D493B57C1B1116C900F89F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Google Blog ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Blog Reader.app/Google Blog Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D493B54E1B1116C800F89F99 /* Build configuration list for PBXProject "Google Blog Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D493B5751B1116C900F89F99 /* Debug */,
+				D493B5761B1116C900F89F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D493B5771B1116C900F89F99 /* Build configuration list for PBXNativeTarget "Google Blog Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D493B5781B1116C900F89F99 /* Debug */,
+				D493B5791B1116C900F89F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D493B57A1B1116C900F89F99 /* Build configuration list for PBXNativeTarget "Google Blog ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D493B57B1B1116C900F89F99 /* Debug */,
+				D493B57C1B1116C900F89F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D493B55A1B1116C800F89F99 /* Google_Blog_Reader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D493B55B1B1116C800F89F99 /* Google_Blog_Reader.xcdatamodel */,
+			);
+			currentVersion = D493B55B1B1116C800F89F99 /* Google_Blog_Reader.xcdatamodel */;
+			path = Google_Blog_Reader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D493B54B1B1116C800F89F99 /* Project object */;
+}

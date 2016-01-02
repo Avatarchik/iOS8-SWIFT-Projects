@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4D7750A1A6743AE00E1AE0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D775091A6743AE00E1AE0F /* AppDelegate.swift */; };
+		D4D7750C1A6743AE00E1AE0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7750B1A6743AE00E1AE0F /* ViewController.swift */; };
+		D4D7750F1A6743AE00E1AE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D7750D1A6743AE00E1AE0F /* Main.storyboard */; };
+		D4D775111A6743AE00E1AE0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D775101A6743AE00E1AE0F /* Images.xcassets */; };
+		D4D775141A6743AE00E1AE0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D775121A6743AE00E1AE0F /* LaunchScreen.xib */; };
+		D4D775201A6743AE00E1AE0F /* Coin_FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7751F1A6743AE00E1AE0F /* Coin_FlipTests.swift */; };
+		D4D775521A6746D800E1AE0F /* coinflip0.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775291A6746D700E1AE0F /* coinflip0.png */; };
+		D4D775531A6746D800E1AE0F /* coinflip1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7752A1A6746D700E1AE0F /* coinflip1.png */; };
+		D4D775541A6746D800E1AE0F /* coinflip2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7752B1A6746D700E1AE0F /* coinflip2.png */; };
+		D4D775551A6746D800E1AE0F /* coinflip3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7752C1A6746D700E1AE0F /* coinflip3.png */; };
+		D4D775561A6746D800E1AE0F /* coinflip4.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7752D1A6746D700E1AE0F /* coinflip4.png */; };
+		D4D775571A6746D800E1AE0F /* coinflip5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7752E1A6746D700E1AE0F /* coinflip5.png */; };
+		D4D775581A6746D800E1AE0F /* coinflip6.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7752F1A6746D700E1AE0F /* coinflip6.png */; };
+		D4D775591A6746D800E1AE0F /* coinflip7.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775301A6746D700E1AE0F /* coinflip7.png */; };
+		D4D7755A1A6746D800E1AE0F /* coinflip8.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775311A6746D700E1AE0F /* coinflip8.png */; };
+		D4D7755B1A6746D800E1AE0F /* coinflip9.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775321A6746D700E1AE0F /* coinflip9.png */; };
+		D4D7755C1A6746D800E1AE0F /* coinflip10.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775331A6746D700E1AE0F /* coinflip10.png */; };
+		D4D7755D1A6746D800E1AE0F /* coinflip11.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775341A6746D700E1AE0F /* coinflip11.png */; };
+		D4D7755E1A6746D800E1AE0F /* coinflip12.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775351A6746D700E1AE0F /* coinflip12.png */; };
+		D4D7755F1A6746D800E1AE0F /* coinflip13.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775361A6746D700E1AE0F /* coinflip13.png */; };
+		D4D775601A6746D800E1AE0F /* coinflip14.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775371A6746D700E1AE0F /* coinflip14.png */; };
+		D4D775611A6746D800E1AE0F /* coinflip15.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775381A6746D700E1AE0F /* coinflip15.png */; };
+		D4D775621A6746D800E1AE0F /* coinflip16.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775391A6746D700E1AE0F /* coinflip16.png */; };
+		D4D775631A6746D800E1AE0F /* coinflip17.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7753A1A6746D800E1AE0F /* coinflip17.png */; };
+		D4D775641A6746D800E1AE0F /* coinflip18.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7753B1A6746D800E1AE0F /* coinflip18.png */; };
+		D4D775651A6746D800E1AE0F /* coinflip19.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7753C1A6746D800E1AE0F /* coinflip19.png */; };
+		D4D775661A6746D800E1AE0F /* coinflip20.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7753D1A6746D800E1AE0F /* coinflip20.png */; };
+		D4D775671A6746D800E1AE0F /* coinflip21.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7753E1A6746D800E1AE0F /* coinflip21.png */; };
+		D4D775681A6746D800E1AE0F /* coinflip22.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7753F1A6746D800E1AE0F /* coinflip22.png */; };
+		D4D775691A6746D800E1AE0F /* coinflip23.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775401A6746D800E1AE0F /* coinflip23.png */; };
+		D4D7756A1A6746D800E1AE0F /* coinflip24.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775411A6746D800E1AE0F /* coinflip24.png */; };
+		D4D7756B1A6746D800E1AE0F /* coinflip25.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775421A6746D800E1AE0F /* coinflip25.png */; };
+		D4D7756C1A6746D800E1AE0F /* coinflip26.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775431A6746D800E1AE0F /* coinflip26.png */; };
+		D4D7756D1A6746D800E1AE0F /* coinflip27.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775441A6746D800E1AE0F /* coinflip27.png */; };
+		D4D7756E1A6746D800E1AE0F /* coinflip28.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775451A6746D800E1AE0F /* coinflip28.png */; };
+		D4D7756F1A6746D800E1AE0F /* coinflip29.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775461A6746D800E1AE0F /* coinflip29.png */; };
+		D4D775701A6746D800E1AE0F /* coinflip30.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775471A6746D800E1AE0F /* coinflip30.png */; };
+		D4D775711A6746D800E1AE0F /* coinflip31.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775481A6746D800E1AE0F /* coinflip31.png */; };
+		D4D775721A6746D800E1AE0F /* coinflip32.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775491A6746D800E1AE0F /* coinflip32.png */; };
+		D4D775731A6746D800E1AE0F /* coinflip33.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7754A1A6746D800E1AE0F /* coinflip33.png */; };
+		D4D775741A6746D800E1AE0F /* coinflip34.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7754B1A6746D800E1AE0F /* coinflip34.png */; };
+		D4D775751A6746D800E1AE0F /* coinflip35.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7754C1A6746D800E1AE0F /* coinflip35.png */; };
+		D4D775761A6746D800E1AE0F /* coinflip36.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7754D1A6746D800E1AE0F /* coinflip36.png */; };
+		D4D775771A6746D800E1AE0F /* coinflip37.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7754E1A6746D800E1AE0F /* coinflip37.png */; };
+		D4D775781A6746D800E1AE0F /* coinflip38.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7754F1A6746D800E1AE0F /* coinflip38.png */; };
+		D4D775791A6746D800E1AE0F /* coinflip39.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775501A6746D800E1AE0F /* coinflip39.png */; };
+		D4D7757A1A6746D800E1AE0F /* coinflip40.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D775511A6746D800E1AE0F /* coinflip40.png */; };
+		D4D7757C1A6748DD00E1AE0F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D7757B1A6748DD00E1AE0F /* background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D7751A1A6743AE00E1AE0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D774FC1A6743AE00E1AE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D775031A6743AE00E1AE0F;
+			remoteInfo = "Coin Flip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4D775041A6743AE00E1AE0F /* Coin Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D775081A6743AE00E1AE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D775091A6743AE00E1AE0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4D7750B1A6743AE00E1AE0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4D7750E1A6743AE00E1AE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4D775101A6743AE00E1AE0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4D775131A6743AE00E1AE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D4D775191A6743AE00E1AE0F /* Coin FlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin FlipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D7751E1A6743AE00E1AE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D7751F1A6743AE00E1AE0F /* Coin_FlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_FlipTests.swift; sourceTree = "<group>"; };
+		D4D775291A6746D700E1AE0F /* coinflip0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip0.png; path = "../../Coin Flip (images prep folder)/coinflip0.png"; sourceTree = "<group>"; };
+		D4D7752A1A6746D700E1AE0F /* coinflip1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip1.png; path = "../../Coin Flip (images prep folder)/coinflip1.png"; sourceTree = "<group>"; };
+		D4D7752B1A6746D700E1AE0F /* coinflip2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip2.png; path = "../../Coin Flip (images prep folder)/coinflip2.png"; sourceTree = "<group>"; };
+		D4D7752C1A6746D700E1AE0F /* coinflip3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip3.png; path = "../../Coin Flip (images prep folder)/coinflip3.png"; sourceTree = "<group>"; };
+		D4D7752D1A6746D700E1AE0F /* coinflip4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip4.png; path = "../../Coin Flip (images prep folder)/coinflip4.png"; sourceTree = "<group>"; };
+		D4D7752E1A6746D700E1AE0F /* coinflip5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip5.png; path = "../../Coin Flip (images prep folder)/coinflip5.png"; sourceTree = "<group>"; };
+		D4D7752F1A6746D700E1AE0F /* coinflip6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip6.png; path = "../../Coin Flip (images prep folder)/coinflip6.png"; sourceTree = "<group>"; };
+		D4D775301A6746D700E1AE0F /* coinflip7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip7.png; path = "../../Coin Flip (images prep folder)/coinflip7.png"; sourceTree = "<group>"; };
+		D4D775311A6746D700E1AE0F /* coinflip8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip8.png; path = "../../Coin Flip (images prep folder)/coinflip8.png"; sourceTree = "<group>"; };
+		D4D775321A6746D700E1AE0F /* coinflip9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip9.png; path = "../../Coin Flip (images prep folder)/coinflip9.png"; sourceTree = "<group>"; };
+		D4D775331A6746D700E1AE0F /* coinflip10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip10.png; path = "../../Coin Flip (images prep folder)/coinflip10.png"; sourceTree = "<group>"; };
+		D4D775341A6746D700E1AE0F /* coinflip11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip11.png; path = "../../Coin Flip (images prep folder)/coinflip11.png"; sourceTree = "<group>"; };
+		D4D775351A6746D700E1AE0F /* coinflip12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip12.png; path = "../../Coin Flip (images prep folder)/coinflip12.png"; sourceTree = "<group>"; };
+		D4D775361A6746D700E1AE0F /* coinflip13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip13.png; path = "../../Coin Flip (images prep folder)/coinflip13.png"; sourceTree = "<group>"; };
+		D4D775371A6746D700E1AE0F /* coinflip14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip14.png; path = "../../Coin Flip (images prep folder)/coinflip14.png"; sourceTree = "<group>"; };
+		D4D775381A6746D700E1AE0F /* coinflip15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip15.png; path = "../../Coin Flip (images prep folder)/coinflip15.png"; sourceTree = "<group>"; };
+		D4D775391A6746D700E1AE0F /* coinflip16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip16.png; path = "../../Coin Flip (images prep folder)/coinflip16.png"; sourceTree = "<group>"; };
+		D4D7753A1A6746D800E1AE0F /* coinflip17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip17.png; path = "../../Coin Flip (images prep folder)/coinflip17.png"; sourceTree = "<group>"; };
+		D4D7753B1A6746D800E1AE0F /* coinflip18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip18.png; path = "../../Coin Flip (images prep folder)/coinflip18.png"; sourceTree = "<group>"; };
+		D4D7753C1A6746D800E1AE0F /* coinflip19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip19.png; path = "../../Coin Flip (images prep folder)/coinflip19.png"; sourceTree = "<group>"; };
+		D4D7753D1A6746D800E1AE0F /* coinflip20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip20.png; path = "../../Coin Flip (images prep folder)/coinflip20.png"; sourceTree = "<group>"; };
+		D4D7753E1A6746D800E1AE0F /* coinflip21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip21.png; path = "../../Coin Flip (images prep folder)/coinflip21.png"; sourceTree = "<group>"; };
+		D4D7753F1A6746D800E1AE0F /* coinflip22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip22.png; path = "../../Coin Flip (images prep folder)/coinflip22.png"; sourceTree = "<group>"; };
+		D4D775401A6746D800E1AE0F /* coinflip23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip23.png; path = "../../Coin Flip (images prep folder)/coinflip23.png"; sourceTree = "<group>"; };
+		D4D775411A6746D800E1AE0F /* coinflip24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip24.png; path = "../../Coin Flip (images prep folder)/coinflip24.png"; sourceTree = "<group>"; };
+		D4D775421A6746D800E1AE0F /* coinflip25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip25.png; path = "../../Coin Flip (images prep folder)/coinflip25.png"; sourceTree = "<group>"; };
+		D4D775431A6746D800E1AE0F /* coinflip26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip26.png; path = "../../Coin Flip (images prep folder)/coinflip26.png"; sourceTree = "<group>"; };
+		D4D775441A6746D800E1AE0F /* coinflip27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip27.png; path = "../../Coin Flip (images prep folder)/coinflip27.png"; sourceTree = "<group>"; };
+		D4D775451A6746D800E1AE0F /* coinflip28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip28.png; path = "../../Coin Flip (images prep folder)/coinflip28.png"; sourceTree = "<group>"; };
+		D4D775461A6746D800E1AE0F /* coinflip29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip29.png; path = "../../Coin Flip (images prep folder)/coinflip29.png"; sourceTree = "<group>"; };
+		D4D775471A6746D800E1AE0F /* coinflip30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip30.png; path = "../../Coin Flip (images prep folder)/coinflip30.png"; sourceTree = "<group>"; };
+		D4D775481A6746D800E1AE0F /* coinflip31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip31.png; path = "../../Coin Flip (images prep folder)/coinflip31.png"; sourceTree = "<group>"; };
+		D4D775491A6746D800E1AE0F /* coinflip32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip32.png; path = "../../Coin Flip (images prep folder)/coinflip32.png"; sourceTree = "<group>"; };
+		D4D7754A1A6746D800E1AE0F /* coinflip33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip33.png; path = "../../Coin Flip (images prep folder)/coinflip33.png"; sourceTree = "<group>"; };
+		D4D7754B1A6746D800E1AE0F /* coinflip34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip34.png; path = "../../Coin Flip (images prep folder)/coinflip34.png"; sourceTree = "<group>"; };
+		D4D7754C1A6746D800E1AE0F /* coinflip35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip35.png; path = "../../Coin Flip (images prep folder)/coinflip35.png"; sourceTree = "<group>"; };
+		D4D7754D1A6746D800E1AE0F /* coinflip36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip36.png; path = "../../Coin Flip (images prep folder)/coinflip36.png"; sourceTree = "<group>"; };
+		D4D7754E1A6746D800E1AE0F /* coinflip37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip37.png; path = "../../Coin Flip (images prep folder)/coinflip37.png"; sourceTree = "<group>"; };
+		D4D7754F1A6746D800E1AE0F /* coinflip38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip38.png; path = "../../Coin Flip (images prep folder)/coinflip38.png"; sourceTree = "<group>"; };
+		D4D775501A6746D800E1AE0F /* coinflip39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip39.png; path = "../../Coin Flip (images prep folder)/coinflip39.png"; sourceTree = "<group>"; };
+		D4D775511A6746D800E1AE0F /* coinflip40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coinflip40.png; path = "../../Coin Flip (images prep folder)/coinflip40.png"; sourceTree = "<group>"; };
+		D4D7757B1A6748DD00E1AE0F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "../../Coin Flip (images prep folder)/background.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4D775011A6743AE00E1AE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D775161A6743AE00E1AE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4D774FB1A6743AE00E1AE0F = {
+			isa = PBXGroup;
+			children = (
+				D4D775061A6743AE00E1AE0F /* Coin Flip */,
+				D4D7751C1A6743AE00E1AE0F /* Coin FlipTests */,
+				D4D775051A6743AE00E1AE0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D775051A6743AE00E1AE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D775041A6743AE00E1AE0F /* Coin Flip.app */,
+				D4D775191A6743AE00E1AE0F /* Coin FlipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4D775061A6743AE00E1AE0F /* Coin Flip */ = {
+			isa = PBXGroup;
+			children = (
+				D4D775091A6743AE00E1AE0F /* AppDelegate.swift */,
+				D4D7750B1A6743AE00E1AE0F /* ViewController.swift */,
+				D4D7750D1A6743AE00E1AE0F /* Main.storyboard */,
+				D4D775101A6743AE00E1AE0F /* Images.xcassets */,
+				D4D775121A6743AE00E1AE0F /* LaunchScreen.xib */,
+				D4D7757B1A6748DD00E1AE0F /* background.png */,
+				D4D775291A6746D700E1AE0F /* coinflip0.png */,
+				D4D7752A1A6746D700E1AE0F /* coinflip1.png */,
+				D4D7752B1A6746D700E1AE0F /* coinflip2.png */,
+				D4D7752C1A6746D700E1AE0F /* coinflip3.png */,
+				D4D7752D1A6746D700E1AE0F /* coinflip4.png */,
+				D4D7752E1A6746D700E1AE0F /* coinflip5.png */,
+				D4D7752F1A6746D700E1AE0F /* coinflip6.png */,
+				D4D775301A6746D700E1AE0F /* coinflip7.png */,
+				D4D775311A6746D700E1AE0F /* coinflip8.png */,
+				D4D775321A6746D700E1AE0F /* coinflip9.png */,
+				D4D775331A6746D700E1AE0F /* coinflip10.png */,
+				D4D775341A6746D700E1AE0F /* coinflip11.png */,
+				D4D775351A6746D700E1AE0F /* coinflip12.png */,
+				D4D775361A6746D700E1AE0F /* coinflip13.png */,
+				D4D775371A6746D700E1AE0F /* coinflip14.png */,
+				D4D775381A6746D700E1AE0F /* coinflip15.png */,
+				D4D775391A6746D700E1AE0F /* coinflip16.png */,
+				D4D7753A1A6746D800E1AE0F /* coinflip17.png */,
+				D4D7753B1A6746D800E1AE0F /* coinflip18.png */,
+				D4D7753C1A6746D800E1AE0F /* coinflip19.png */,
+				D4D7753D1A6746D800E1AE0F /* coinflip20.png */,
+				D4D7753E1A6746D800E1AE0F /* coinflip21.png */,
+				D4D7753F1A6746D800E1AE0F /* coinflip22.png */,
+				D4D775401A6746D800E1AE0F /* coinflip23.png */,
+				D4D775411A6746D800E1AE0F /* coinflip24.png */,
+				D4D775421A6746D800E1AE0F /* coinflip25.png */,
+				D4D775431A6746D800E1AE0F /* coinflip26.png */,
+				D4D775441A6746D800E1AE0F /* coinflip27.png */,
+				D4D775451A6746D800E1AE0F /* coinflip28.png */,
+				D4D775461A6746D800E1AE0F /* coinflip29.png */,
+				D4D775471A6746D800E1AE0F /* coinflip30.png */,
+				D4D775481A6746D800E1AE0F /* coinflip31.png */,
+				D4D775491A6746D800E1AE0F /* coinflip32.png */,
+				D4D7754A1A6746D800E1AE0F /* coinflip33.png */,
+				D4D7754B1A6746D800E1AE0F /* coinflip34.png */,
+				D4D7754C1A6746D800E1AE0F /* coinflip35.png */,
+				D4D7754D1A6746D800E1AE0F /* coinflip36.png */,
+				D4D7754E1A6746D800E1AE0F /* coinflip37.png */,
+				D4D7754F1A6746D800E1AE0F /* coinflip38.png */,
+				D4D775501A6746D800E1AE0F /* coinflip39.png */,
+				D4D775511A6746D800E1AE0F /* coinflip40.png */,
+				D4D775071A6743AE00E1AE0F /* Supporting Files */,
+			);
+			path = "Coin Flip";
+			sourceTree = "<group>";
+		};
+		D4D775071A6743AE00E1AE0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4D775081A6743AE00E1AE0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4D7751C1A6743AE00E1AE0F /* Coin FlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7751F1A6743AE00E1AE0F /* Coin_FlipTests.swift */,
+				D4D7751D1A6743AE00E1AE0F /* Supporting Files */,
+			);
+			path = "Coin FlipTests";
+			sourceTree = "<group>";
+		};
+		D4D7751D1A6743AE00E1AE0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7751E1A6743AE00E1AE0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4D775031A6743AE00E1AE0F /* Coin Flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D775231A6743AE00E1AE0F /* Build configuration list for PBXNativeTarget "Coin Flip" */;
+			buildPhases = (
+				D4D775001A6743AE00E1AE0F /* Sources */,
+				D4D775011A6743AE00E1AE0F /* Frameworks */,
+				D4D775021A6743AE00E1AE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coin Flip";
+			productName = "Coin Flip";
+			productReference = D4D775041A6743AE00E1AE0F /* Coin Flip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D775181A6743AE00E1AE0F /* Coin FlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D775261A6743AE00E1AE0F /* Build configuration list for PBXNativeTarget "Coin FlipTests" */;
+			buildPhases = (
+				D4D775151A6743AE00E1AE0F /* Sources */,
+				D4D775161A6743AE00E1AE0F /* Frameworks */,
+				D4D775171A6743AE00E1AE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D7751B1A6743AE00E1AE0F /* PBXTargetDependency */,
+			);
+			name = "Coin FlipTests";
+			productName = "Coin FlipTests";
+			productReference = D4D775191A6743AE00E1AE0F /* Coin FlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D774FC1A6743AE00E1AE0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Raporte;
+				TargetAttributes = {
+					D4D775031A6743AE00E1AE0F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D4D775181A6743AE00E1AE0F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D4D775031A6743AE00E1AE0F;
+					};
+				};
+			};
+			buildConfigurationList = D4D774FF1A6743AE00E1AE0F /* Build configuration list for PBXProject "Coin Flip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4D774FB1A6743AE00E1AE0F;
+			productRefGroup = D4D775051A6743AE00E1AE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D775031A6743AE00E1AE0F /* Coin Flip */,
+				D4D775181A6743AE00E1AE0F /* Coin FlipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4D775021A6743AE00E1AE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D775631A6746D800E1AE0F /* coinflip17.png in Resources */,
+				D4D775751A6746D800E1AE0F /* coinflip35.png in Resources */,
+				D4D775681A6746D800E1AE0F /* coinflip22.png in Resources */,
+				D4D7755C1A6746D800E1AE0F /* coinflip10.png in Resources */,
+				D4D7755A1A6746D800E1AE0F /* coinflip8.png in Resources */,
+				D4D775671A6746D800E1AE0F /* coinflip21.png in Resources */,
+				D4D7756F1A6746D800E1AE0F /* coinflip29.png in Resources */,
+				D4D775571A6746D800E1AE0F /* coinflip5.png in Resources */,
+				D4D7756B1A6746D800E1AE0F /* coinflip25.png in Resources */,
+				D4D7757A1A6746D800E1AE0F /* coinflip40.png in Resources */,
+				D4D7755D1A6746D800E1AE0F /* coinflip11.png in Resources */,
+				D4D775561A6746D800E1AE0F /* coinflip4.png in Resources */,
+				D4D775551A6746D800E1AE0F /* coinflip3.png in Resources */,
+				D4D775601A6746D800E1AE0F /* coinflip14.png in Resources */,
+				D4D7755F1A6746D800E1AE0F /* coinflip13.png in Resources */,
+				D4D775621A6746D800E1AE0F /* coinflip16.png in Resources */,
+				D4D7757C1A6748DD00E1AE0F /* background.png in Resources */,
+				D4D775651A6746D800E1AE0F /* coinflip19.png in Resources */,
+				D4D775541A6746D800E1AE0F /* coinflip2.png in Resources */,
+				D4D775521A6746D800E1AE0F /* coinflip0.png in Resources */,
+				D4D7755E1A6746D800E1AE0F /* coinflip12.png in Resources */,
+				D4D775741A6746D800E1AE0F /* coinflip34.png in Resources */,
+				D4D7755B1A6746D800E1AE0F /* coinflip9.png in Resources */,
+				D4D775641A6746D800E1AE0F /* coinflip18.png in Resources */,
+				D4D7750F1A6743AE00E1AE0F /* Main.storyboard in Resources */,
+				D4D775141A6743AE00E1AE0F /* LaunchScreen.xib in Resources */,
+				D4D775791A6746D800E1AE0F /* coinflip39.png in Resources */,
+				D4D775721A6746D800E1AE0F /* coinflip32.png in Resources */,
+				D4D775531A6746D800E1AE0F /* coinflip1.png in Resources */,
+				D4D775581A6746D800E1AE0F /* coinflip6.png in Resources */,
+				D4D7756C1A6746D800E1AE0F /* coinflip26.png in Resources */,
+				D4D775591A6746D800E1AE0F /* coinflip7.png in Resources */,
+				D4D775701A6746D800E1AE0F /* coinflip30.png in Resources */,
+				D4D775691A6746D800E1AE0F /* coinflip23.png in Resources */,
+				D4D775111A6743AE00E1AE0F /* Images.xcassets in Resources */,
+				D4D775611A6746D800E1AE0F /* coinflip15.png in Resources */,
+				D4D775731A6746D800E1AE0F /* coinflip33.png in Resources */,
+				D4D775771A6746D800E1AE0F /* coinflip37.png in Resources */,
+				D4D775661A6746D800E1AE0F /* coinflip20.png in Resources */,
+				D4D7756D1A6746D800E1AE0F /* coinflip27.png in Resources */,
+				D4D7756A1A6746D800E1AE0F /* coinflip24.png in Resources */,
+				D4D775711A6746D800E1AE0F /* coinflip31.png in Resources */,
+				D4D775761A6746D800E1AE0F /* coinflip36.png in Resources */,
+				D4D775781A6746D800E1AE0F /* coinflip38.png in Resources */,
+				D4D7756E1A6746D800E1AE0F /* coinflip28.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D775171A6743AE00E1AE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4D775001A6743AE00E1AE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7750C1A6743AE00E1AE0F /* ViewController.swift in Sources */,
+				D4D7750A1A6743AE00E1AE0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D775151A6743AE00E1AE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D775201A6743AE00E1AE0F /* Coin_FlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D7751B1A6743AE00E1AE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D775031A6743AE00E1AE0F /* Coin Flip */;
+			targetProxy = D4D7751A1A6743AE00E1AE0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4D7750D1A6743AE00E1AE0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D7750E1A6743AE00E1AE0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4D775121A6743AE00E1AE0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D775131A6743AE00E1AE0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4D775211A6743AE00E1AE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4D775221A6743AE00E1AE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D775241A6743AE00E1AE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coin Flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4D775251A6743AE00E1AE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coin Flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4D775271A6743AE00E1AE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Coin FlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin Flip.app/Coin Flip";
+			};
+			name = Debug;
+		};
+		D4D775281A6743AE00E1AE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Coin FlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin Flip.app/Coin Flip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4D774FF1A6743AE00E1AE0F /* Build configuration list for PBXProject "Coin Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D775211A6743AE00E1AE0F /* Debug */,
+				D4D775221A6743AE00E1AE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D775231A6743AE00E1AE0F /* Build configuration list for PBXNativeTarget "Coin Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D775241A6743AE00E1AE0F /* Debug */,
+				D4D775251A6743AE00E1AE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4D775261A6743AE00E1AE0F /* Build configuration list for PBXNativeTarget "Coin FlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D775271A6743AE00E1AE0F /* Debug */,
+				D4D775281A6743AE00E1AE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4D774FC1A6743AE00E1AE0F /* Project object */;
+}

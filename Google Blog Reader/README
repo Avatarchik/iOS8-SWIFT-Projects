@@ -1,0 +1,7 @@
+Description:
+Google Blog Reader saves blog content to device using core data and lets users read individual blog items both online and offline. Uses Google API. Written as part of iOS 8 development class.
+
+
+Fixes:
+-Google API key expired, app can no longer fetch data from google blogs.
+-Xcode update -> force unpacking errors?

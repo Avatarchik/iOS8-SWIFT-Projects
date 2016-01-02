@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D41891181A6835B8003EF569 /* TitlePage.png in Resources */ = {isa = PBXBuildFile; fileRef = D41891171A6835B8003EF569 /* TitlePage.png */; };
+		D418911A1A683723003EF569 /* EndPage.png in Resources */ = {isa = PBXBuildFile; fileRef = D41891191A683723003EF569 /* EndPage.png */; };
+		D41FAB571A679B7F00BFFE63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FAB561A679B7F00BFFE63 /* AppDelegate.swift */; };
+		D41FAB591A679B7F00BFFE63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FAB581A679B7F00BFFE63 /* ViewController.swift */; };
+		D41FAB5C1A679B7F00BFFE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41FAB5A1A679B7F00BFFE63 /* Main.storyboard */; };
+		D41FAB5E1A679B7F00BFFE63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41FAB5D1A679B7F00BFFE63 /* Images.xcassets */; };
+		D41FAB611A679B7F00BFFE63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D41FAB5F1A679B7F00BFFE63 /* LaunchScreen.xib */; };
+		D41FAB6D1A679B7F00BFFE63 /* FunnyJunk_v0_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41FAB6C1A679B7F00BFFE63 /* FunnyJunk_v0_5Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D41FAB671A679B7F00BFFE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41FAB491A679B7F00BFFE63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41FAB501A679B7F00BFFE63;
+			remoteInfo = FunnyJunk_v0.5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D41891171A6835B8003EF569 /* TitlePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitlePage.png; sourceTree = SOURCE_ROOT; };
+		D41891191A683723003EF569 /* EndPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EndPage.png; sourceTree = SOURCE_ROOT; };
+		D41FAB511A679B7F00BFFE63 /* FunnyJunk_v0.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyJunk_v0.5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41FAB551A679B7F00BFFE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41FAB561A679B7F00BFFE63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D41FAB581A679B7F00BFFE63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D41FAB5B1A679B7F00BFFE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D41FAB5D1A679B7F00BFFE63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D41FAB601A679B7F00BFFE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D41FAB661A679B7F00BFFE63 /* FunnyJunk_v0.5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunnyJunk_v0.5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41FAB6B1A679B7F00BFFE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41FAB6C1A679B7F00BFFE63 /* FunnyJunk_v0_5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyJunk_v0_5Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D41FAB4E1A679B7F00BFFE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41FAB631A679B7F00BFFE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D41FAB481A679B7F00BFFE63 = {
+			isa = PBXGroup;
+			children = (
+				D41FAB531A679B7F00BFFE63 /* FunnyJunk_v0.5 */,
+				D41FAB691A679B7F00BFFE63 /* FunnyJunk_v0.5Tests */,
+				D41FAB521A679B7F00BFFE63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D41FAB521A679B7F00BFFE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41FAB511A679B7F00BFFE63 /* FunnyJunk_v0.5.app */,
+				D41FAB661A679B7F00BFFE63 /* FunnyJunk_v0.5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41FAB531A679B7F00BFFE63 /* FunnyJunk_v0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				D41FAB561A679B7F00BFFE63 /* AppDelegate.swift */,
+				D41FAB581A679B7F00BFFE63 /* ViewController.swift */,
+				D41FAB5A1A679B7F00BFFE63 /* Main.storyboard */,
+				D41FAB5D1A679B7F00BFFE63 /* Images.xcassets */,
+				D41FAB5F1A679B7F00BFFE63 /* LaunchScreen.xib */,
+				D41891171A6835B8003EF569 /* TitlePage.png */,
+				D41891191A683723003EF569 /* EndPage.png */,
+				D41FAB541A679B7F00BFFE63 /* Supporting Files */,
+			);
+			path = FunnyJunk_v0.5;
+			sourceTree = "<group>";
+		};
+		D41FAB541A679B7F00BFFE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41FAB551A679B7F00BFFE63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D41FAB691A679B7F00BFFE63 /* FunnyJunk_v0.5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D41FAB6C1A679B7F00BFFE63 /* FunnyJunk_v0_5Tests.swift */,
+				D41FAB6A1A679B7F00BFFE63 /* Supporting Files */,
+			);
+			path = FunnyJunk_v0.5Tests;
+			sourceTree = "<group>";
+		};
+		D41FAB6A1A679B7F00BFFE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41FAB6B1A679B7F00BFFE63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D41FAB501A679B7F00BFFE63 /* FunnyJunk_v0.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41FAB701A679B7F00BFFE63 /* Build configuration list for PBXNativeTarget "FunnyJunk_v0.5" */;
+			buildPhases = (
+				D41FAB4D1A679B7F00BFFE63 /* Sources */,
+				D41FAB4E1A679B7F00BFFE63 /* Frameworks */,
+				D41FAB4F1A679B7F00BFFE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunnyJunk_v0.5;
+			productName = FunnyJunk_v0.5;
+			productReference = D41FAB511A679B7F00BFFE63 /* FunnyJunk_v0.5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D41FAB651A679B7F00BFFE63 /* FunnyJunk_v0.5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41FAB731A679B7F00BFFE63 /* Build configuration list for PBXNativeTarget "FunnyJunk_v0.5Tests" */;
+			buildPhases = (
+				D41FAB621A679B7F00BFFE63 /* Sources */,
+				D41FAB631A679B7F00BFFE63 /* Frameworks */,
+				D41FAB641A679B7F00BFFE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D41FAB681A679B7F00BFFE63 /* PBXTargetDependency */,
+			);
+			name = FunnyJunk_v0.5Tests;
+			productName = FunnyJunk_v0.5Tests;
+			productReference = D41FAB661A679B7F00BFFE63 /* FunnyJunk_v0.5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41FAB491A679B7F00BFFE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Raporte;
+				TargetAttributes = {
+					D41FAB501A679B7F00BFFE63 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D41FAB651A679B7F00BFFE63 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D41FAB501A679B7F00BFFE63;
+					};
+				};
+			};
+			buildConfigurationList = D41FAB4C1A679B7F00BFFE63 /* Build configuration list for PBXProject "FunnyJunk_v0.5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D41FAB481A679B7F00BFFE63;
+			productRefGroup = D41FAB521A679B7F00BFFE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D41FAB501A679B7F00BFFE63 /* FunnyJunk_v0.5 */,
+				D41FAB651A679B7F00BFFE63 /* FunnyJunk_v0.5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41FAB4F1A679B7F00BFFE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41FAB5C1A679B7F00BFFE63 /* Main.storyboard in Resources */,
+				D41FAB611A679B7F00BFFE63 /* LaunchScreen.xib in Resources */,
+				D418911A1A683723003EF569 /* EndPage.png in Resources */,
+				D41FAB5E1A679B7F00BFFE63 /* Images.xcassets in Resources */,
+				D41891181A6835B8003EF569 /* TitlePage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41FAB641A679B7F00BFFE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D41FAB4D1A679B7F00BFFE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41FAB591A679B7F00BFFE63 /* ViewController.swift in Sources */,
+				D41FAB571A679B7F00BFFE63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41FAB621A679B7F00BFFE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41FAB6D1A679B7F00BFFE63 /* FunnyJunk_v0_5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D41FAB681A679B7F00BFFE63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41FAB501A679B7F00BFFE63 /* FunnyJunk_v0.5 */;
+			targetProxy = D41FAB671A679B7F00BFFE63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D41FAB5A1A679B7F00BFFE63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41FAB5B1A679B7F00BFFE63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D41FAB5F1A679B7F00BFFE63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41FAB601A679B7F00BFFE63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D41FAB6E1A679B7F00BFFE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D41FAB6F1A679B7F00BFFE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D41FAB711A679B7F00BFFE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunnyJunk_v0.5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D41FAB721A679B7F00BFFE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunnyJunk_v0.5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D41FAB741A679B7F00BFFE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunnyJunk_v0.5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunnyJunk_v0.5.app/FunnyJunk_v0.5";
+			};
+			name = Debug;
+		};
+		D41FAB751A679B7F00BFFE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunnyJunk_v0.5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunnyJunk_v0.5.app/FunnyJunk_v0.5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D41FAB4C1A679B7F00BFFE63 /* Build configuration list for PBXProject "FunnyJunk_v0.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41FAB6E1A679B7F00BFFE63 /* Debug */,
+				D41FAB6F1A679B7F00BFFE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41FAB701A679B7F00BFFE63 /* Build configuration list for PBXNativeTarget "FunnyJunk_v0.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41FAB711A679B7F00BFFE63 /* Debug */,
+				D41FAB721A679B7F00BFFE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41FAB731A679B7F00BFFE63 /* Build configuration list for PBXNativeTarget "FunnyJunk_v0.5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41FAB741A679B7F00BFFE63 /* Debug */,
+				D41FAB751A679B7F00BFFE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41FAB491A679B7F00BFFE63 /* Project object */;
+}
